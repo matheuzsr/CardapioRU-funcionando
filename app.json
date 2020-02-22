@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "CardapioRU",
+    "slug": "cardapioru",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+
+    "ios": {
+      "bundleIdentifier": "com.cardapioru",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.cardapioru"
+    },
+    
+    "androidStatusBar": { 
+      "barStyle": "dark-content", 
+      "backgroundColor": "#ffffff"
+       
+    },
+
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "description": ""
+  }
+}
